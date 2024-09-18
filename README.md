@@ -1,6 +1,6 @@
-# Ex- IMPLEMENTATION-OF-SYMBOL-TABLE
+# Ex-1 IMPLEMENTATION-OF-SYMBOL-TABLE
 # AIM :
-## To write a C program to implement a symbol table.
+ To write a C program to implement a symbol table.
 # ALGORITHM
 1.	Start the program.
 2.	Get the input from the user with the terminating symbol ‘$’.
@@ -11,7 +11,7 @@
 7.	To reach a variable, enter the variable to be searched and symbol table has been checked for corresponding variable, the variable along with its address is displayed as result.
 8.	Stop the program. 
 # PROGRAM
-
+```
 #include<stdio.h>
 #include<conio.h> 
 #include<ctype.h> 
@@ -64,11 +64,11 @@ if(flag==0)
 printf("\nSymbol Not Found"); 
 getch();
 }
-
+```
 
 # OUTPUT
 
 ![Screenshot 2024-09-18 161246](https://github.com/user-attachments/assets/2e6e6122-ef7b-493d-b440-35b015d31b15)
 
 # RESULT
-### The program to implement a symbol table is executed and the output is verified.
+ The program to implement a symbol table is executed and the output is verified.
